@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Pre-Entrega Adriana Soteldo</title>
-        <script src="miarchivo.js"></script>
-        <link reel="stylesheet" href="estilos.css"/> 
-    </head>
-    <body>
-        <h1>Segunda Entrega</h1>
-        <title>Relax Bank</title>
-        <p>
-            Un Banco para Ti, para MI, para TODOS.
-        </p>
-    </body>
- 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Bienvenido a Relax Bank</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img class="img-main" src="img/banco.png" alt="" />
+      <h1 class="title">Hola bienvido al banking</h1>
+
+      <p class="description">
+        Un Banco para relajarte y confiar
+      </p>
+
+      <div class="select-wrapper">
+        <label class="control-label" for="age">¿Eres mayor a 18 años?</label>
+        <select class="control-input" name="" id="age">
+          <option value="1">SI</option>
+          <option value="0" selected>NO</option>
+        </select>
+      </div>
+
+      <div class="btn-wrapper">
+        <button id="iniciar" class="btn">INICIAR</button>
+      </div>
+
+      <script src="
+      https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js
+      "></script>
+      <script src="index.js"></script>
+    </div>
+  </body>
 </html>

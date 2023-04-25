@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.img-main {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+}
+
+.title,
+.subtitle {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(37, 3, 37);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.select-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.control-label {
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.control-input {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.main-form {
+  width: 800px;
+  margin: 0 auto;
+}

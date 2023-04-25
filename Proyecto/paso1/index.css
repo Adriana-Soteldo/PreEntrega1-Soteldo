@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+.title,
+.subtitle {
+  width: 100%;
+  text-align: center;
+}
+
+.control {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.main-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: rgb(37, 3, 37);
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}

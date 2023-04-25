@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Paso 2</title>
+  </head>
+
+  <body>
+    <h1 class="title">Bienvenido <span id="usuario"></span></h1>
+    <p class="subtitle">
+      ahora toca seleccionar el tipo de cuenta que deseas abrir
+    </p>
+
+    <div class="main-form">
+      <div class="select-wrapper">
+        <label class="control-label" for="age"
+          >Selecciona el tipo de cuenta</label
+        >
+
+        <select class="control-input" id="cuenta">
+          <option value="1">corriente</option>
+          <option value="2">ahorro</option>
+          <option value="3">otro</option>
+        </select>
+      </div>
+
+      <div class="btn-wrapper">
+        <button id="form1-next" class="btn">CONTINUAR</button>
+      </div>
+    </div>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js
+    "></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
