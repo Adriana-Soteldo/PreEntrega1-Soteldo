@@ -1,0 +1,51 @@
+[{ "id":"12345",
+   "fecha":"01-01-2023",
+   "movimiento":"deposito",
+   "monto":"100"
+
+},{ "id":"67890",
+"fecha":"02-11-2018",
+"movimiento":"retiro",
+"monto":"-500"
+
+},{ "id":"23457",
+"fecha":"24-04-2022",
+"movimiento":"deposito",
+"monto":"20000"
+
+},{ "id":"82828",
+"fecha":"07-11-2020",
+"movimiento":"retiro",
+"monto":"-200"
+
+},{ "id":"49358",
+"fecha":"26-07-2019",
+"movimiento":"deposito",
+"monto":"700"
+
+},{ "id":"83737",
+"fecha":"27-04-2017",
+"movimiento":"retiro",
+"monto":"-700"
+
+},{ "id":"12745",
+"fecha":"09-05-2020",
+"movimiento":"deposito",
+"monto":"13000"
+
+},{ "id":"78953",
+"fecha":"22-08-2018",
+"movimiento":"retiro",
+"monto":"-300"
+
+},{ "id":"76348",
+"fecha":"11-06-2015",
+"movimiento":"deposito",
+"monto":"200"
+
+},{ "id":"29384",
+"fecha":"07-03-2016",
+"movimiento":"retiro",
+"monto":"-3400"
+
+}]
