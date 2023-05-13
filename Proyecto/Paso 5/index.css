@@ -1,0 +1,77 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: black;
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .img-main {
+    color: black;
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+  }
+  
+  .title {
+    font-style:italic;
+    font-size: xx-large;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+  }
+  .subtitle{
+    color: whitesmoke;
+    width: 100%;
+    text-align: center; 
+  }
+  .slogan {
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  .btn-wrapper {
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .select-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .control-label {
+    color: whitesmoke;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+  .control-input {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  .main-form{
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  

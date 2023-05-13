@@ -1,9 +1,14 @@
 * {
-  font-family: sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.container {
+  background-color: black;
+  width: 800px;
+  margin: 0 auto;
+}
 .title,
 .subtitle {
+  color: whitesmoke;
   width: 100%;
   text-align: center;
 }
@@ -22,13 +27,14 @@
 }
 
 .btn-wrapper {
+  color: whitesmoke;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .btn {
-  background-color: rgb(37, 3, 37);
+  background-color: black;
   color: #fff;
   cursor: pointer;
   text-decoration: none;

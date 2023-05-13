@@ -1,12 +1,12 @@
 const btn = document.getElementById("form1-next");
 
 btn.addEventListener("click", function () {
-  const nombre = document.getElementById("nombre");
-  const apellido = document.getElementById("apellido");
+  const nombre = document.getElementById("Nombre");
+  const apellido = document.getElementById("Apellido");
   const dni = document.getElementById("dni");
-  const direccion = document.getElementById("direccion");
-  const telefono = document.getElementById("telefono");
-  const edad = document.getElementById("edad");
+  const direccion = document.getElementById("Direccion");
+  const telefono = document.getElementById("Telefono");
+  const edad = document.getElementById("Edad");
 
   const usuario = {
     nombre: nombre.value,
@@ -25,7 +25,7 @@ btn.addEventListener("click", function () {
     icon: "success",
     confirmButtonText: "Cool",
     didClose: function () {
-      window.location.href = "../paso2/index.html"; 
+      window.location.href = "../Paso 3/index.html"; 
     },
   });
 });

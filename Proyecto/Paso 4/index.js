@@ -23,3 +23,9 @@ function random() {
 
   return val;
 }
+const btn = document.getElementById("form1-next");
+btn.addEventListener("click", function () {
+  const edad = document.getElementById("cerrar-seccion");
+ 
+  window.location.href = "../Paso 1/index.html";
+});

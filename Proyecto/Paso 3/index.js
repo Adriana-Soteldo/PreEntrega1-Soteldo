@@ -8,5 +8,5 @@ btn.addEventListener("click", function () {
   const edad = document.getElementById("cuenta");
   window.localStorage.setItem("tipo-cuenta", edad.value);
 
-  window.location.href = "../paso3/index.html";
+  window.location.href = "../Paso 4/index.html";
 });
